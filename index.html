@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styless/standard.css">
+    <link rel="stylesheet" href="styless/fonts.css">
+    <link rel="stylesheet" href="styless/assets.css">
+    
+    <script src="scripts/db-img.js"></script>
+    <script src="scripts/template.js"></script>
+    <script src="scripts/script.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body onload="init()">
+    <header>
+        <figure>
+         <img class="logo" src="./img/logo.png" alt="">
+        </figure>
+        <div class="header-menu">
+            <a href="#">INICIO</a>
+            <a href="#">RESERVA</a>
+            <a href="#">COMO LLEGAR</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#">MENU</a>
+        </div>
+
+    </header>
+
+    <main>
+        <div>
+          <div class="imgHome" id="imgSlider"> 
+            <div class="icons">
+              <img class="iconsA" onclick="backImg()" src="icons/back.png" alt="">
+              <figure>
+            <img class="chulasTitle" src="./img/BackgroundEraser_20251207_222005616.png" alt="">
+             </figure>
+              <img class="iconsA" onclick="nextImg()" src="icons/next.png" alt="">
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="main-color">
+          <p class="slogan">COMER CON NOSOTROS <br> ES UNA EXPERIENCIA COMPLETA</p>
+          <div class="sloganIMGS">
+            
+            <div class="imgText">
+              <img class="imgEvents 1" src="./img/arroz a la marinera.jpg" alt="">
+              <h3>CALIDAD</h3>
+            </div>
+            <div class="imgText">
+              <img class="imgEvents 2" src="./img/diversion.jpg" alt="">
+              <h3>DIVERSION</h3>
+            </div>
+            <div class="imgText">
+              <img class="imgEvents 3" src="./img/eventos.png" alt="">
+              <h3>EVENTOS</h3>
+            </div>
+          </div>
+          <p class="encabezado">Y MUCHO MAS...</p>
+        </div>
+    </main>
+    <footer>
+      <a href="#">Impreso</a>
+      <a href="#">AGB</a>
+      <a href="#">contacto</a>
+    </footer>
     
 </body>
 </html>

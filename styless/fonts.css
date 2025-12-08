@@ -1,0 +1,48 @@
+.sloganIMGS{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+
+}
+
+.slogan{
+  
+  text-shadow:5px 4px 4px rgba(0, 0, 0, 0.66);  
+    font-size: 50px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 10;
+    margin-left: 50px;
+    color: white;
+}
+
+h3{
+  text-shadow:5px 4px 4px rgba(0, 0, 0, 0.66);
+  color: white;
+  font-size: 50px;
+ font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 10;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-shadow:5px 4px 4px rgba(0, 0, 0, 0.66);  
+    font-size: 50px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 10;
+    margin-left: 50px;
+    color: white;
+}
