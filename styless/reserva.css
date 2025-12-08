@@ -1,0 +1,21 @@
+.reserva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    
+}
+
+.inputsButton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    margin-block: 0;
+    font-size: 20px;
+}
