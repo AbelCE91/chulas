@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin:0;
     background-image: url(../img/Fondo\ naranja\ con\ sí.png);
     background-repeat: no-repeat;

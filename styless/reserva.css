@@ -1,12 +1,17 @@
+
+
 .reserva{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 200px;
-    height: 400px;
-    
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+   
 }
 
 .inputsButton{
@@ -15,7 +20,17 @@
     flex-direction: column;
 }
 
+h1{
+    margin-block: 0;
+}
+
 p{
     margin-block: 0;
     font-size: 20px;
+}
+
+.mainReserva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
